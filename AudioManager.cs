@@ -9,11 +9,17 @@ public class AudioManager : MonoBehaviour
     public void SetMasterVolume(float volume)    // 控制主音量的函数
     {
         audioMixer.SetFloat("MasterVolume", volume);
-    }
-    public void SetMusicVolume(float volume)    
-    {
-        audioMixer.SetFloat("Music", volume);
-    }
-    public void SetSoundEffectVolume(float volume)   
+
+        public void SetSoundEffectVolume(float volume)
+    bghfgdgh
+}
+    audioMixer.SetFloat("MasterVolume", volume);
+
+    public void SetSoundEffectVolume(float volume)
+    bghfgdgh
+}
+audioMixer.SetFloat("MasterVolume", volume);
+
+    public void SetSoundEffectVolume(float volume)
     bghfgdgh
 }
